@@ -31,7 +31,7 @@ body {
 }
 
 #form input {
-  width: 90%;
+  width: 100%;
   padding: 15px;
   font-size: 20px;
   border-radius: 8px;
@@ -52,47 +52,40 @@ body {
 .item {
   background-color: white;
   padding: 20px;
-  margin-bottom: 15px;
-min-width: 250px;
-height: 300px;
+  /* margin-bottom: 5px/; */
+  width: 250px;
+  height: 50px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 8px;
+  
 }
 .item .left {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: absolute;
-  left: 25px;
-  top: 45px;
+  align-items: center;
+  /* left: 25px;
+  top: 45px; */
+  /* gap: 15px; */
+}
+
+#todo-wrapper {
+  width: 100%;
+  display: flex;
+  /* padding-top: 15px; */
   gap: 15px;
+  flex-wrap: wrap;
+  background-color: #fff;
 }
-
-.right button:first-child {
-  background-color: green;
-  color: white;
-  padding: 10px;
+button {
   border: none;
-  font-size: 18px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.right button:last-child {
-  background-color: red;
+  background-color: blue;
+  padding: 15px 20px;
+  border-radius: 8px;
   color: white;
-  padding: 10px;
-  border: none;
-  font-size: 18px;
-  border-radius: 6px;
   cursor: pointer;
-}
-
-#todo-wrapper{
-display: flex;
-gap: 25px;
-flex-wrap: wrap;
+  font-size: 20px;
 }
