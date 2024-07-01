@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
   font-size: 18px;
-  background-color: salmon;
+  background-color: grey;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 }
 
 #form {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -35,6 +35,7 @@ body {
   padding: 15px;
   font-size: 20px;
   border-radius: 8px;
+  margin-bottom: 20px;
   border: none;
 }
 
@@ -59,16 +60,6 @@ height: 300px;
   align-items: center;
   justify-content: space-between;
   border-radius: 8px;
-}
-
-.item .right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  gap: 15px;
 }
 .item .left {
   display: flex;

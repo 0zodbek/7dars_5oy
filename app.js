@@ -1,4 +1,7 @@
 const field = document.querySelector('#field')
+const field1 = document.querySelector('#field1')
+const field2 = document.querySelector('#field2')
+
 const button = document.getElementById('button')
 const wrapper = document.querySelector('#todo-wrapper')
 
@@ -42,6 +45,7 @@ return true ;
 button && button.addEventListener('click',function(event){
 event.preventDefault();
 const todo = field.value ;
+
 const isValid = validate();
 if(!isValid){
 return;
